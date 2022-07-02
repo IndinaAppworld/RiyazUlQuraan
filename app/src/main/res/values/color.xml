@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="yellow">#DCB148</color>
+ <color name="sideoptionnormaltext">#6F7072</color>
+    <color name="sideoptionclicktext">#C3C4C9</color>
+<color name="deneiyat">#A7B53A</color>
+    <color name="primary">#212C4D</color>
+</resources>

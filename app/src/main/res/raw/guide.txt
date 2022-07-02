@@ -1,0 +1,29 @@
+<font color='#212C4D'><font color='#212C4D'><li><b>Main Menu</b></li></font></font>
+Appear after starting application.It contains most frequently used items.
+<br><br> 
+<font color='#212C4D'><li><b>Resume</b></li></font>
+It takes you to the last opened page.You can use this button for directly jump to the most recent page of the application. 
+<br><br><font color='#212C4D'><li><b>Go to page</b></li></font>
+It allows you to directly jump to specific page no.
+<br><br><font color='#212C4D'><li><b>Bookmarks</b></li></font>
+It helps to remember different pages of Quran.Use bookmarks whenever you want to quicky accesss saved pages
+<br><br><font color='#212C4D'><li><b>Save Bookmark</b></li></font>
+<img src="addbookmarkicon.png">
+Click on this icon to add entry in bookmark
+
+<br><br><font color='#212C4D'><li><b>Change Reading Mode</b></li></font>
+1. You can read Quran either Page mode or gallery mode.
+<br>
+<br><b>Gallery Mode</b>:- Zoom in/out feature is available.Change page by sliding left or right on screen.
+<br><br><b>Page Mode</b>:- It gives you a real page turning effect. Zoom in/out feature is disable.
+ 
+ <br>
+<br><br><font color='#212C4D'><li><b>Share</b></li></font>
+You can share this application with your friend,family and other people by clicking on Share option from sidemenu 
+<br><br><font color='#212C4D'><li><b>Rate</b></li></font>
+Rate this application 5 start on google play and write your valuable comments.
+<br><br><br><font color='#212C4D'><li><b>Visit Website</b></li></font>
+You can visit our website by click on Visit Website option from sidemenu 
+<br><br><font color='#212C4D'><li><b>Add/Reomove Surah from favourite list</b></li></font>
+<img src="faxsel.png">
+Clikc on this icon to add/remove surah from your favourite list.

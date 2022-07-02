@@ -1,0 +1,107 @@
+<com.view.DragLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+         >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/logoIcon"
+    android:background="@color/primary"
+    >
+        <ImageView
+android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo" />
+</RelativeLayout>
+        <ListView
+android:layout_below="@id/logoIcon"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/lv"
+            android:divider="@color/primary"
+            android:dividerHeight="2dip"
+            android:layout_marginTop="10dp"
+            />
+
+    </RelativeLayout>
+    <com.view.MyRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eeeeee" >
+
+
+
+
+        <RelativeLayout
+            android:background="@color/primary"
+            android:id="@+id/header"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:background="@drawable/circle_background_yellow"
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:scaleType="centerCrop"
+                android:src="@drawable/sideop" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/riyaz"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_below="@id/header"
+android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:background="@drawable/backgraund"
+            android:layout_height="match_parent">
+
+
+
+
+
+
+
+<LinearLayout
+    android:id="@+id/menu_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+android:layout_gravity="center_vertical"
+android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+</LinearLayout>
+        </LinearLayout>
+
+
+    </com.view.MyRelativeLayout>
+
+</com.view.DragLayout>
+

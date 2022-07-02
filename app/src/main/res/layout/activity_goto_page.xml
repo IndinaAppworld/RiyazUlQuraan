@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/roundedbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<com.fonts.CipherBold
+    android:layout_width="fill_parent"
+    android:text="Go to page #" android:paddingTop="10dp" android:paddingBottom="10dp"
+    android:gravity="center"
+    android:textSize="@dimen/hedertextsize"
+    android:textColor="@color/primary"
+    android:layout_height="wrap_content" />
+
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    >
+
+    <com.fonts.CipherBold
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:textColor="@color/primary"
+        android:text="Page No" android:textStyle="bold" android:id="@+id/pgnotext"
+        android:textSize="@dimen/hedertextsize" android:layout_marginLeft="10dip"
+        android:layout_marginTop="5dip"
+        />
+    <LinearLayout android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content" android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/pageno"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:inputType="number" android:singleLine="true"
+            android:textColor="@color/primary"
+            android:background="@drawable/edittextbg"
+            android:padding="5dip"
+            android:layout_weight="1"
+
+            />
+
+        <CheckBox android:layout_weight="1" android:layout_marginLeft="3dip"
+            android:layout_width="fill_parent"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:id="@+id/chk" android:textColor="@color/primary"
+            android:text="Last Read" android:textSize="@dimen/hedertextsize"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+        <com.fonts.CipherBold
+            android:layout_width="fill_parent"
+            android:text="Submit" android:paddingTop="10dp" android:paddingBottom="10dp"
+            android:gravity="center" android:id="@+id/submit"
+            android:textSize="@dimen/hedertextsize"
+            android:textColor="@color/primary"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

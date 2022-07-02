@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/roundedbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.fonts.CipherBold
+            android:layout_width="fill_parent"
+            android:text="Visit Website" android:paddingTop="10dp" android:paddingBottom="10dp"
+            android:gravity="center"
+            android:textSize="@dimen/hedertextsize"
+            android:textColor="@color/primary"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout android:layout_width="fill_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content" android:orientation="vertical" >
+
+
+                <LinearLayout
+                    android:id="@+id/browser1"
+                    android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/browsericon"
+                        android:layout_height="wrap_content" />
+                <com.fonts.HelviticaNormal
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:textColor="#515151"
+                    android:text="www.aajkasabaq.in" android:textStyle="bold"
+
+android:layout_gravity="center_vertical"
+                    android:textSize="@dimen/hedertextsize" android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dp"
+                    />
+                </LinearLayout>
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#515151"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <LinearLayout
+                android:id="@+id/browser2"
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/browsericon"
+                    android:layout_height="wrap_content" />
+                <com.fonts.HelviticaNormal
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:textColor="#515151"
+                    android:text="www.bayans.org" android:textStyle="bold"
+
+                    android:layout_gravity="center_vertical"
+                    android:textSize="@dimen/hedertextsize" android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dp"
+                    />
+            </LinearLayout>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#515151"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+
+                <LinearLayout
+                    android:id="@+id/browser3"
+                    android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/browsericon"
+                        android:layout_height="wrap_content" />
+                    <com.fonts.HelviticaNormal
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:textColor="#515151"
+                        android:text="www.ibnekaseer.in" android:textStyle="bold"
+
+                        android:layout_gravity="center_vertical"
+                        android:textSize="@dimen/hedertextsize" android:layout_marginLeft="10dip"
+                        android:layout_marginRight="10dp"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+</LinearLayout>
+
+        <com.fonts.CipherBold
+            android:layout_width="fill_parent"
+            android:text="Cancel" android:paddingTop="10dp" android:paddingBottom="10dp"
+            android:gravity="center"
+            android:id="@+id/submit"
+            android:textSize="@dimen/hedertextsize"
+            android:textColor="@color/primary"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/toplayout"
+        android:orientation="vertical"
+        android:background="@drawable/roundedbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.fonts.CipherBold
+            android:layout_width="fill_parent"
+            android:text="User Guide" android:paddingTop="10dp" android:paddingBottom="10dp"
+            android:gravity="center"
+            android:id="@+id/title"
+            android:textSize="@dimen/hedertextsize"
+            android:textColor="@color/primary"
+            android:layout_height="wrap_content" />
+
+
+
+        <com.fonts.CipherBold
+            android:layout_alignParentBottom="true"
+            android:layout_width="fill_parent"
+            android:text="OK" android:paddingTop="10dp" android:paddingBottom="10dp"
+            android:gravity="center"
+            android:id="@+id/ok"
+            android:textSize="@dimen/hedertextsize"
+            android:textColor="@color/primary"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:layout_below="@id/title"
+            android:layout_above="@id/ok"
+            >
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/webview"
+
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:padding="0dip" 
+
+>
+
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:src="@drawable/deleie_icon"
+        android:id="@+id/delete"
+
+        android:layout_height="wrap_content" />
+<RelativeLayout
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_toLeftOf="@id/delete"
+ android:padding="5dip" 
+
+>
+    
+
+    
+  
+  
+  <com.fonts.HelviticaNormal
+        android:id="@+id/name_english"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/contact_photo"
+        android:layout_toLeftOf="@id/arrow"
+        android:paddingBottom="0dip"
+        android:textSize="@dimen/menuitemsize"   
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"   
+        android:layout_marginTop="0dip"
+        android:text="Muharamul H"
+      android:textColor="#ffffff" />
+    
+
+    <com.fonts.HelviticaNormal
+        android:id="@+id/name_arabic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/name_english"
+        android:paddingBottom="0dip"
+
+        android:textSize="@dimen/viewdesc"   
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"   
+        android:layout_marginTop="5dip"
+        android:text="Muharamul H"
+        android:textColor="#ffffff" />
+  
+    </RelativeLayout>
+  
+
+</RelativeLayout>

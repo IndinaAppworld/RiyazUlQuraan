@@ -1,0 +1,18 @@
+<resources>
+
+<dimen name="activity_horizontal_margin">16dp</dimen>
+      <dimen name="headerpadding">30dip</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="menuitemsize_arabic">28dip</dimen>
+                <dimen name="hedertextsize">20dip</dimen>
+                <dimen name="menuitemsize">19dip</dimen>
+          <dimen name="hedertextsize_urdu">18dp</dimen>
+                
+                <dimen name="maintitlefont">20dip</dimen>
+  <dimen name="popupmenufont">25dip</dimen>
+        <dimen name="langfont">15dip</dimen>
+        <dimen name="aglapichlapadding">30dip</dimen>
+   
+                   <dimen name="favdim">30dip</dimen>
+                                <dimen name="addfontsize">18sp</dimen>
+</resources>                   
