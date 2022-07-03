@@ -33,8 +33,6 @@
         android:id="@+id/name_english"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/contact_photo"
-        android:layout_toLeftOf="@id/arrow"
         android:paddingBottom="0dip"
         android:textSize="@dimen/menuitemsize"   
         android:layout_marginLeft="5dip"

@@ -78,26 +78,26 @@ finish();
 
     } else {
         Toast toast = Toast.makeText(getApplicationContext(), "Page number can not be greater than " + Constants.TOTAL_PAGES, Toast.LENGTH_LONG);
-        View view = toast.getView();
-        view.setBackgroundColor(Color.parseColor(Constants.TOASTCOLOR));
-        TextView text = (TextView) view.findViewById(android.R.id.message);
-//    				text.setTextColor(Color.parseColor(Constants.TOASTCOLOR_TEXT));
-
-        text.setTextColor(Color.parseColor(Constants.TOASTCOLOR_TEXT));
-        text.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
+//        View view = toast.getView();
+//        view.setBackgroundColor(Color.parseColor(Constants.TOASTCOLOR));
+//        TextView text = (TextView) view.findViewById(android.R.id.message);
+////    				text.setTextColor(Color.parseColor(Constants.TOASTCOLOR_TEXT));
+//
+//        text.setTextColor(Color.parseColor(Constants.TOASTCOLOR_TEXT));
+//        text.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
         toast.show();
     }
 }
                 else
 {
     Toast toast = Toast.makeText(getApplicationContext(), "Please enter page number", Toast.LENGTH_LONG);
-    View view = toast.getView();
-    view.setBackgroundColor(Color.parseColor(Constants.TOASTCOLOR));
-    TextView text = (TextView) view.findViewById(android.R.id.message);
-//    				text.setTextColor(Color.parseColor(Constants.TOASTCOLOR_TEXT));
-
-    text.setTextColor(Color.parseColor(Constants.TOASTCOLOR_TEXT));
-    text.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
+//    View view = toast.getView();
+//    view.setBackgroundColor(Color.parseColor(Constants.TOASTCOLOR));
+//    TextView text = (TextView) view.findViewById(android.R.id.message);
+////    				text.setTextColor(Color.parseColor(Constants.TOASTCOLOR_TEXT));
+//
+//    text.setTextColor(Color.parseColor(Constants.TOASTCOLOR_TEXT));
+//    text.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
     toast.show();
 }
 

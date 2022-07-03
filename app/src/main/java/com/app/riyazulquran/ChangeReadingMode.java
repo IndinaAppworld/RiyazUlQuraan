@@ -49,13 +49,13 @@ public class ChangeReadingMode extends Activity {
                 {
                     i=1;
                     Toast toast = Toast.makeText(getApplicationContext(),"Zoom IN/OUT option is enable in gallery mode",Toast.LENGTH_LONG);
-                    View view = toast.getView();
-                    view.setBackgroundColor(Color.parseColor(Constants.TOASTCOLOR));
-                    TextView text = (TextView) view.findViewById(android.R.id.message);
-//    				text.setTextColor(Color.parseColor(Constants.TOASTCOLOR_TEXT));
-
-                    text.setTextColor(Color.parseColor(Constants.TOASTCOLOR_TEXT));
-                    text.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
+//                    View view = toast.getView();
+//                    view.setBackgroundColor(Color.parseColor(Constants.TOASTCOLOR));
+//                    TextView text = (TextView) view.findViewById(android.R.id.message);
+////    				text.setTextColor(Color.parseColor(Constants.TOASTCOLOR_TEXT));
+//
+//                    text.setTextColor(Color.parseColor(Constants.TOASTCOLOR_TEXT));
+//                    text.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
                     toast.show();
                 }
                 Constants.editor.putInt("readType", i);

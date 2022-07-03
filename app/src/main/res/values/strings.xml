@@ -3,15 +3,15 @@
 
     <string name="app_name">Riyazul-Quran 13Line</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">RiyazulQuraan</string>
-    <string name="title_activity_menu">RiyazulQuraan</string>
-    <string name="title_activity_splash_screen">RiyazulQuraan</string>
-    <string name="title_activity_splash_screen2">RiyazulQuraan</string>
-    <string name="title_activity_web_view">RiyazulQuraan</string>
-    <string name="title_activity_gallary_test">RiyazulQuraan</string>
-    <string name="title_activity_menu_screen">RiyazulQuraan</string>
-    <string name="title_activity_sub_menu">RiyazulQuraan</string>
-    <string name="title_activity_image_zoom">RiyazulQuraan</string>
+    <string name="hello_world">Riyazul-Quran 13Line</string>
+    <string name="title_activity_menu">Riyazul-Quran 13Line</string>
+    <string name="title_activity_splash_screen">Riyazul-Quran 13Line</string>
+    <string name="title_activity_splash_screen2">Riyazul-Quran 13Line</string>
+    <string name="title_activity_web_view">Riyazul-Quran 13Line</string>
+    <string name="title_activity_gallary_test">Riyazul-Quran 13Line</string>
+    <string name="title_activity_menu_screen">Riyazul-Quran 13Line</string>
+    <string name="title_activity_sub_menu">Riyazul-Quran 13Line</string>
+    <string name="title_activity_image_zoom">Riyazul-Quran 13Line</string>
     <string name="title_activity_change_read_mode">ChangeReadMode</string>
     <string name="title_activity_help">Help</string>
     <string name="title_activity_wadu_confirmation">WaduConfirmation</string>
