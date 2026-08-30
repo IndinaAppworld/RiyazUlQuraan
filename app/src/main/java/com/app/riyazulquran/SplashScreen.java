@@ -11,10 +11,14 @@ import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.WindowCompat;
+import androidx.core.view.WindowInsetsControllerCompat;
+
 import com.animation.ActivityAnimator;
 import com.utils.Constants;
 
-public class SplashScreen extends Activity {
+public class SplashScreen extends AppCompatActivity {
 
     boolean isChangedStat=false;
     @Override
@@ -22,14 +26,16 @@ public class SplashScreen extends Activity {
         super.onCreate(savedInstanceState);
 
 
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        WindowInsetsControllerCompat windowInsetsController =
+                WindowCompat.getInsetsController(getWindow(), getWindow().getDecorView());
+        windowInsetsController.setAppearanceLightStatusBars(true);
+
 
 
 
 //		Toast.makeText(getApplicationContext(),""+Constants.height,Toast.LENGTH_SHORT).show();
 
 
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_splash);
         Handler mHandler = new Handler();
