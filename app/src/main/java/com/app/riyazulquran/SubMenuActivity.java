@@ -24,6 +24,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.WindowCompat;
+import androidx.core.view.WindowInsetsControllerCompat;
+
 import com.animation.ActivityAnimator;
 import com.fonts.CipherBold;
 import com.fonts.CipherNormal;
@@ -36,7 +40,7 @@ import com.view.DragLayout;
 
 import java.util.ArrayList;
 
-public class SubMenuActivity extends Activity {
+public class SubMenuActivity extends AppCompatActivity {
     String titles[]={"JUZ INDEX","ALL SURAH","FAVOURITE"};
 
     int reqid=0;
@@ -50,8 +54,15 @@ public class SubMenuActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+//        requestWindowFeature(Window.FEATURE_NO_TITLE);
+//        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+
+        WindowInsetsControllerCompat windowInsetsController =
+                WindowCompat.getInsetsController(getWindow(), getWindow().getDecorView());
+        windowInsetsController.setAppearanceLightStatusBars(true);
+
+
         setContentView(R.layout.activity_sub_menu);
         if(getIntent().getExtras()!=null)
         {

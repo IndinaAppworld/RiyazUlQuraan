@@ -16,6 +16,10 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.WindowCompat;
+import androidx.core.view.WindowInsetsControllerCompat;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager.OnPageChangeListener;
 
@@ -44,7 +48,7 @@ import com.utils.DatabaseHandler;
  * @author harism
  * 15 para ka 755 page missing hai
  */
-public class CurlActivity extends Activity {
+public class CurlActivity extends AppCompatActivity {
 
 	
 	ViewFlipper flipper;
@@ -64,10 +68,15 @@ public static	int []mBitmapIds=new int[mBitmapIds1.length];
 		
 		
 		
-		getWindow().requestFeature(Window.FEATURE_NO_TITLE);
-		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN); 
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON, WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);		
-  		setContentView(R.layout.paging);
+//		getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+//		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON, WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+		WindowInsetsControllerCompat windowInsetsController =
+				WindowCompat.getInsetsController(getWindow(), getWindow().getDecorView());
+		windowInsetsController.setAppearanceLightStatusBars(true);
+
+
+		setContentView(R.layout.paging);
 		flipper=(ViewFlipper)findViewById(R.id.flipper);
 //		Constants.loadBitmap();
 		int index = 0;
@@ -345,10 +354,10 @@ public void orientationChanged()
 		mCurlView.onResume();
 	}
 
-	@Override
-	public Object onRetainNonConfigurationInstance() {
-		return mCurlView.getCurrentIndex();
-	}
+//	@Override
+//	public Object onRetainNonConfigurationInstance() {
+//		return mCurlView.getCurrentIndex();
+//	}
 
 	/**
 	 * Bitmap provider.
